@@ -1,0 +1,28 @@
+login as: root
+root@192.168.153.128's password:
+Last login: Thu Nov 24 20:14:28 2022 from 192.168.153.1
+[root@sandbox ~]# ls
+Labs  start_ambari.sh  start_hbase.sh
+[root@sandbox ~]# mkdir praxisds
+[root@sandbox ~]# ls
+Labs  praxisds  start_ambari.sh  start_hbase.sh
+[root@sandbox ~]# cd praxisds
+[root@sandbox praxisds]# ls
+[root@sandbox praxisds]# cd ..
+[root@sandbox ~]# cd ..
+[root@sandbox /]# ls
+ambari-views  bin  boot  dev  etc  hadoop  home  lib  lib64  lost+found  media  mnt  opt  proc  root  sbin  selinux  srv  sys  tmp  usr  vagrant  var  virtualization
+[root@sandbox /]# cd ~
+[root@sandbox ~]# cd praxisds
+[root@sandbox praxisds]# mkdir 2022
+[root@sandbox praxisds]# ls
+2022
+[root@sandbox praxisds]# cd 2022
+[root@sandbox 2022]# cd ~
+[root@sandbox ~]# cd praxisds/2022
+[root@sandbox 2022]# touch hadoop
+[root@sandbox 2022]# ls
+hadoop
+[root@sandbox 2022]# vi python
+[root@sandbox 2022]# vi python
+[root@sandbox 2022]#
